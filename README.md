@@ -25,15 +25,11 @@ Remote to container docker
   docker exec -it tljh-dev /bin/bash
 ```
 
-use this command to create admin default user 
+use this command to create admin default user is admind:password
 
 ```bash
   python3 /srv/src/bootstrap/bootstrap.py --admin admin:password
 ```
-
-is admind:password
-
-
 
 ## INFO
 
