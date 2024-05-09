@@ -1,0 +1,16 @@
+version: '3'
+services:
+  tljh-dev:
+    build:
+      context: .
+      dockerfile: integration-tests/Dockerfile
+    privileged: true
+    container_name: tljh-dev
+    ports:
+      - "12000:80"
+    volumes:
+      - ./:/srv/src
+      - ./jupyterbackup:/home  # Additional volume binding
+
+
+
