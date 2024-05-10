@@ -1,5 +1,5 @@
 
-## JupyterHub for co op lab education
+## JupyterHub for co op lab education  Thankyou jupyterhub/the-littlest-jupyterhub
 
 JupyterHub brings the power of notebooks to groups of users. It gives users access to computational environments and resources without burdening the users with installation and maintenance tasks.
 
